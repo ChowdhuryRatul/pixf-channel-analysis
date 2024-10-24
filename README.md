@@ -14,7 +14,7 @@ To install PixF Channal Analysis
 
 1. clone the github repository
 
-'''git clone https://github.com/ChowdhuryRatul/pixf-channel-analysis'''
+```git clone https://github.com/ChowdhuryRatul/pixf-channel-analysis```
 
 2. navigate and install python requirements
 
