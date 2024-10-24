@@ -42,9 +42,9 @@ python pixf_ca_analysis.py --imagefolder ./demo --channels R,G,Y --output PixF_c
 | --imagefolder | ./path/to/folder          | Input path to the folder containing collection of images for analysis.                                       |                |
 | --channels    | R/G/B/Y/T/P               | Input single/multiple 1 letter representation of channel/composite for analysis. Example --channels R,G,Y    | R,G,Y          |
 | --output      | Desired output file name. | Output file/images/plot file name.                                                                           | PixF_ca_output |
-| --threshold   |                           | The intensity threshold used during analysis, any pixel with intensity below the threshold will be excluded. | 30             |
-| --plot        |                           | Y to plot 3d manhattan bar plot, N otherwise                                                                 | N              |
-| --image       |                           | Y to generate channel/composite image base on --channels. N otherwise                                        | N              |
+| --threshold   |    1-255                       | The intensity threshold used during analysis, any pixel with intensity below the threshold will be excluded. | 30             |
+| --plot        |      Y/N                     | Y to plot 3d manhattan bar plot, N otherwise                                                                 | N              |
+| --image       |         Y/N                  | Y to generate channel/composite image base on --channels. N otherwise                                        | N              |
 
 ## License
 
